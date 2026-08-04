@@ -1,0 +1,4 @@
+Concept: MediaSource is an object that allows JavaScript to supply media data to a <video> element.
+Key Insight: Creating a MediaSource does not start playback. It must be attached to the video element, and the browser must signal readiness through sourceopen.
+Lifecycle: closed → open → ended
+Code Learned: Creating a MediaSource, generating a blob: URL, attaching it to a video, and listening for sourceopen.
